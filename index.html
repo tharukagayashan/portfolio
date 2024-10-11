@@ -1,579 +1,954 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <met#aeb3b8et="utf-8">
-        <title>Tharuka Gayashan's Portfolio</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description">
 
-        <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+<head>
+    <meta charset="utf-8">
+    <title>Tharuka Gayashan Potfolio Website</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
 
-        <!-- Icon Font Stylesheet -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
 
-        <!-- Libraries Stylesheet -->
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <body>
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="text-primary fw-bold m-0">Tharuka Gayashan</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#skill" class="nav-item nav-link">Experience</a>
+                <a href="#service" class="nav-item nav-link">Services</a>
+            </div>
+            <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
+                <h1 class="text-primary fw-bold m-0">Tharuka Gayashan</h1>
+            </a>
+            <div class="navbar-nav me-auto py-0">
+                <a href="#project" class="nav-item nav-link">Projects</a>
+                <a href="#potfolio" class="nav-item nav-link">Potfolio</a>
+                <a href="#publications" class="nav-item nav-link">Publications</a>
+                <a href="#tech" class="nav-item nav-link">Skills</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
         </div>
-        <!-- Spinner End -->
+    </nav>
+    <!-- Navbar End -->
 
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-light my-6 mt-0" id="home">
         <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-4 sticky-lg-top vh-100">
-                    <div class="d-flex flex-column h-100 text-center overflow-auto shadow">
-                        <img class="w-100 img-fluid mb-4" src="img\profilepic.jpg" alt="Image">
-                        <h1 class="text-primary mt-2">Tharuka Gayashan</h1>
-                        <div class="mb-4" style="height: 22px;">
-                            <h4 class="typed-text-output d-inline-block text-light"></h4>
-                            <div class="typed-text d-none">Software Engineer, Java Developer, Fullstack Developer</div>
-                        </div>
-                        <div class="d-flex justify-content-center mt-auto mb-3">
-                            <a class="btn btn-secondary btn-square mx-1" href="https://github.com/tharukagayashan" target="_blank"><i class="fab fa-github"></i></a>
-                            <a class="btn btn-secondary btn-square mx-1" href="https://tharukagayashan.medium.com/" target="_blank"><i class="fab fa-medium"></i></a>
-                            <a class="btn btn-secondary btn-square mx-1" href="https://www.linkedin.com/in/tharuka-gayashan/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-secondary btn-square mx-1" href="https://www.hackerrank.com/profile/tharuka_gayashan" target="_blank"><i class="fab fa-hackerrank"></i></a>
-                        </div>
-                        
-                        <div class="d-flex align-items-end justify-content-between border-top">
-                            <a href="https://drive.google.com/file/d/1TaqQd1LvPAksNzIHMgdUC5F8r5s2xFuk/view" class="btn w-50 border-end" target="_blank">Download CV</a>
-
-                            <a href="mailto:ft.gayashan@gmail.com" class="btn w-50 btn-scroll">Contact Me</a>
-                        </div>
-                        
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 py-6 pb-0 pt-lg-0">
+                    <h3 class="text-primary mb-3">I'm</h3>
+                    <h1 class="display-3 mb-3">Tharuka Gayashan Fernando</h1>
+                    <h2 class="typed-text-output d-inline"></h2>
+                    <div class="typed-text d-none">Software Engineer, Java Developer, Fullstack Developer</div>
+                    <div class="d-flex align-items-center pt-5">
+                        <a href="" class="btn btn-primary py-3 px-4 me-5">Download CV</a>
+                        <button type="button" class="btn-play" data-bs-toggle="modal"
+                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="ms-4 mb-0 d-none d-sm-block">Play Video</h5>
                     </div>
                 </div>
-                <div class="col-lg-8">
-                    <!-- About Start -->
-                    <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
-                        <h1 class="title pb-3 mb-5">About Me</h1>
-                        <p style="text-align: justify;">
-                            👋 Hello! I'm Tharuka Gayashan Fernando, a passionate Software Engineer dedicated to creating robust, scalable, and innovative solutions. As an undergraduate at SLIIT with a strong focus on Spring Boot and Java, I've been deeply involved in the software development world since July 2022.
-                        
-                            In my journey, I've gained hands-on experience building, optimizing, and maintaining applications that meet both technical and business needs. I thrive in dynamic environments where collaboration and cutting-edge technology come together to solve complex problems. Whether it's architecting efficient systems or diving deep into troubleshooting, I approach every challenge with a blend of enthusiasm, precision, and a commitment to excellence.
-                        
-                            I pride myself on staying up-to-date with the latest industry trends and continuously refining my skills to deliver top-tier results. As I grow in this ever-evolving field, I'm excited to take on new challenges, contribute to impactful projects, and drive innovation forward.
-                        
-                            Let's connect and explore how we can work together to create something remarkable!
-                        </p>
-                       
-                        <div class="row mb-4 mt-5">
-                            <div class="col-sm-6 py-1">
-                                <span class="fw-medium text-primary">Name:</span> Tharuka Gayashan Fernando
-                            </div>
-                          
-                            <div class="col-sm-6 py-1">
-                                <span class="fw-medium text-primary">Degree:</span> BSc (hons) Information Technology Special (SE)
-                            </div>
-                            <div class="col-sm-6 py-1">
-                                <span class="fw-medium text-primary">Experience:</span> 2 +  Years
-                            </div>
-                            <div class="col-sm-6 py-1">
-                                <span class="fw-medium text-primary">Phone:</span> +94 714550733
-                            </div>
-                            <div class="col-sm-6 py-1">
-                                <span class="fw-medium text-primary">Email:</span> ft.gayashan@gmail.com
-
-                            </div>
-                            <div class="col-sm-6 py-1">
-                                <span class="fw-medium text-primary">Address:</span> Colombo, Sri Lanka
-                            </div>
-                            <div class="col-sm-6 py-1">
-                                <span class="fw-medium text-primary">Freelance:</span> Available
-                            </div>
-                        </div>
-                        <div class="row g-4">
-                            <div class="col-md-4 col-lg-6 col-xl-4">
-                                <div class="d-flex bg-secondary p-4">
-                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">2</h1>
-                                    <div class="ps-3">
-                                        <p class="mb-0">Years of</p>
-                                        <h5 class="mb-0">Experience</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-lg-6 col-xl-4">
-                                <div class="d-flex bg-secondary p-4">
-                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">30</h1>
-                                    <div class="ps-3">
-                                        <p class="mb-0">Happy</p>
-                                        <h5 class="mb-0">Clients</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-lg-6 col-xl-4">
-                                <div class="d-flex bg-secondary p-4">
-                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">50</h1>
-                                    <div class="ps-3">
-                                        <p class="mb-0">Complete</p>
-                                        <h5 class="mb-0">Projects</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <!-- About End -->
-
-                    <!-- Skills Start -->
-                    <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
-                        <h1 class="title pb-3 mb-5">Skills</h1>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="skill mb-4">
-                                    <div class="d-flex justify-content-between">
-                                        <p class="mb-2">Java</p>
-                                        <p class="mb-2">95%</p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill mb-4">
-                                    <div class="d-flex justify-content-between">
-                                        <p class="mb-2">Node JS</p>
-                                        <p class="mb-2">85%</p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill mb-4">
-                                    <div class="d-flex justify-content-between">
-                                        <p class="mb-2">PHP</p>
-                                        <p class="mb-2">90%</p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill mb-4">
-                                    <div class="d-flex justify-content-between">
-                                        <p class="mb-2">Machine Learning</p>
-                                        <p class="mb-2">90%</p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div> <div class="skill mb-4">
-                                    <div class="d-flex justify-content-between">
-                                        <p class="mb-2">C++</p>
-                                        <p class="mb-2">90%</p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="skill mb-4">
-                                    <div class="d-flex justify-content-between">
-                                        <p class="mb-2">Javascript</p>
-                                        <p class="mb-2">90%</p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill mb-4">
-                                    <div class="d-flex justify-content-between">
-                                        <p class="mb-2">React JS</p>
-                                        <p class="mb-2">85%</p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar bg-success" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill mb-4">
-                                    <div class="d-flex justify-content-between">
-                                        <p class="mb-2">HTML</p>
-                                        <p class="mb-2">85%</p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill mb-4">
-                                    <div class="d-flex justify-content-between">
-                                        <p class="mb-2">CSS</p>
-                                        <p class="mb-2">85%</p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                                <div class="skill mb-4">
-                                    <div class="d-flex justify-content-between">
-                                        <p class="mb-2">React Native</p>
-                                        <p class="mb-2">85%</p>
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar bg-sucess" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <!-- Skills End -->
-
-                    <!-- Expericence Start -->
-                    <section class="py-5 wow fadeInUp" data-wow-delay="0.1s">
-                        <h1 class="title pb-3 mb-5">Expericence</h1>
-                        <div class="border-start border-2 border-light pt-2 ps-5">
-                            <div class="position-relative mb-4">
-                                <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
-                                <h5 class="mb-1">Software Engineer</h5>
-                                <p class="mb-2"> OLAK TECHNOLOGIES (PVT) LIMITED | <small>(Jan 2024 - Present)</small></p>
-                                <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
-                            </div>
-                            <div class="position-relative mb-4">
-                                <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
-                                <h5 class="mb-1">Associate Software Engineer </h5>
-                                <p class="mb-2"> OLAK TECHNOLOGIES (PVT) LIMITED | <small>(Jan 2023 - Dec 2023)</small></p>
-                                <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
-                            </div>
-                            <div class="position-relative mb-4">
-                                <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
-                                <h5 class="mb-1">Trainee Software Engineer 
-                                    </h5>
-                                <p class="mb-2">OLAK TECHNOLOGIES (PVT) LIMITED | <small>(June 2022 - Jan 2023)</small></p>
-                                <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
-                            </div>
-                        </div>
-                    </section>
-                    <!-- Expericence End -->
-
-                        <!-- Academic qualification Start -->
-                        <section class="py-5 wow fadeInUp" data-wow-delay="0.1s">
-                            <h1 class="title pb-3 mb-5">Academic Qualifications</h1>
-                            <div class="border-start border-2 border-light pt-2 ps-5">
-                                <div class="position-relative mb-4">
-                                    <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
-                                    <h5 class="mb-1">BSC (HONS) INFORMATION TECHNOLOGY SPECIALISING SOFTWARE ENGINEERING
-                                         </h5>
-                                    <p class="mb-2"> Sri lanka institute of information technology (SLIIT) | <small>2020-2024</small></p>
-                                   
-                                </div>
-                                <div class="position-relative mb-4">
-                                    <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
-                                    <h5 class="mb-1">COMPLETED DIPLOMA IN INFORMATION TECHNOLOGY
-                                        </h5>
-                                    <p class="mb-2">  Open University , Ambalanthota | <small>2019-2020</small></p>
-                                </div>
-
-                                <div class="position-relative mb-4">
-                                    <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
-                                    <h5 class="mb-1">COMPLETED ADVANCED LEVEL (ENGINEERING TECHNOLOGY)
-                                       
-                                        </h5>
-                                    <p class="mb-2">   H/Theraputhha National School, Ambalanthota | <small>2018-2019</small></p>
-                                </div>
-                               
-                            </div>
-                        </section>
-                        <!-- Academic qualification End -->
-
-
-                           <!-- Academic Projects Start -->
-                           <section class="py-5 wow fadeInUp" data-wow-delay="0.1s">
-                            <h1 class="title pb-3 mb-5">Academic Projects</h1>
-                            <div class="border-start border-2 border-light pt-2 ps-5">
-                                <div class="position-relative mb-4">
-                                    <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
-                                    <h5 class="mb-1">BOOK STORE
-                                         </h5>
-                                    <p class="mb-2"> Technology | <small>Html , CSS ,JavaScript , PHP</small></p>
-                                   
-                                </div>
-                                <div class="position-relative mb-4">
-                                    <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
-                                    <h5 class="mb-1">SCHOOL MANAGEMENT SYSTEM
-                                        </h5>
-                                        <p class="mb-2"> Technology | <small>Java , MySql</small></p>
-                                </div>
-
-                                <div class="position-relative mb-4">
-                                    <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
-                                    <h5 class="mb-1">TRAVEL AGENCY AND TOUR PLANNING SYSTEM </h5>
-                                    <h5>MOVIE BOOKING SYSTEM</h5>   
-                                    <h5> PROJECT MANAGEMENT TOOL</h5> 
-                                    <h5>MOVIE TICKET BOOKING MANAGEMENT TOOL</h5>  
-                                      
-                                        </h5>
-                                        <p class="mb-2"> Technology | <small>Visual Studio, MERN Stack (Mongo Db, Expresss.js, React.js Node.js), Bootstrap</small></p>
-                                </div>
-
-                                <div class="position-relative mb-4">
-                                    <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
-                                    <h5 class="mb-1">FUEL MANAGEMENT TOOL</h5>
-                                 
-                                      
-                                        </h5>
-                                        <p class="mb-2"> Technology | <small>Visual Studio, MERN Stack (Mongo Db, Expresss.js, React.js Node.js), Bootstrap,Material UI</small></p>
-                                </div>
-
-                                <div class="position-relative mb-4">
-                                    <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
-                                    <h5 class="mb-1">EVENT MANAGEMENT TOOL</h5>
-                                 
-                                      
-                                        </h5>
-                                        <p class="mb-2"> Technology | <small>Visual Studio, FireBase,Node.js,Flutter</small></p>
-                                </div>
-
-                                <div class="position-relative mb-4">
-                                    <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
-                                    <h5 class="mb-1">TRAIN TICKET MANAGEMENT SYSTEM</h5>
-                                 
-                                      
-                                        </h5>
-                                        <p class="mb-2"> Technology | <small>Visual Studio, Android Studio, React.js ,Phython</small></p>
-                                </div>
-                               
-                            </div>
-                        </section>
-                        <!-- Publication -->
-
-                                   <!-- Academic Projects Start -->
-                                   <section class="py-5 wow fadeInUp" data-wow-delay="0.1s">
-                                    <h1 class="title pb-3 mb-5">Academic Projects</h1>
-                                    <div class="border-start border-2 border-light pt-2 ps-5">
-                                        <div class="position-relative mb-4">
-                                            <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
-                                            <h5 class="mb-1">Final Year Research Project (Group)</h5>
-                                               <h5>MACHINE LEARNING BASED SMART HELA WEDAKAMA APPLICATION TO GUIDE PATIENTS AND APPRENTICE NATIVE PHYSICIANS MOBILE APLICATION</h5> 
-                                             
-                                              
-                                               <div class="publication">
-                                                   <p>Research Publication : <a href="https://ieeexplore.ieee.org/document/10465385" target="_blank">View Publication</a></p>
-                                                   
-                                               </div>
-                                              
-                                               <div class="publication">
-                                                   <p>Research Website : <a href="https://ayusha-helawedakama.netlify.app/index.html" target="_blank">View Website</a></p>
-                                                   
-                                               </div>
-                                           
-                                        </div>
-                                        <div class="position-relative mb-4">
-                                            <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
-                                            <h5 class="mb-1">MONITORING ONLINE OPERATING FUEL MANAGEMENT SYSTEM
-                                                </h5>
-                                                <div class="publication">
-                                                    <p>Research Publication : <a href="https://ijemr.vandanapublications.com/index.php/j/article/view/908" target="_blank">View Publication</a></p>
-                                                    
-                                                </div>
-                                        </div>
-        
-                                        
-                                    </div>
-                                </section>
-                                <!--Publications End -->
-
-                    <!-- Services Start -->
-                    <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
-                        <h1 class="title pb-3 mb-5">Services</h1>
-                        <div class="row g-4">
-                            <div class="col-md-6">
-                                <div class="service-item">
-                                    <i class="fa fa-2x fa-laptop-code mx-auto mb-4"></i>
-                                    <h5 class="mb-2">Web Design</h5>
-                                    <p class="mb-0">Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="service-item">
-                                    <i class="fab fa-2x fa-android mx-auto mb-4"></i>
-                                    <h5 class="mb-2">Apps Development</h5>
-                                    <p class="mb-0">Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="service-item">
-                                    <i class="fa fa-2x fa-search mx-auto mb-4"></i>
-                                    <h5 class="mb-2">SEO</h5>
-                                    <p class="mb-0">Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="service-item">
-                                    <i class="fa fa-2x fa-edit mx-auto mb-4"></i>
-                                    <h5 class="mb-2">Content Creating</h5>
-                                    <p class="mb-0">Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore</p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <!-- Services End -->
-
-                    <!-- Portfolio Start -->
-                    <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
-                        <h1 class="title pb-3 mb-5">Portfolio</h1>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="row">
-                                    <div class="col-12 text-center mb-2">
-                                        <ul class="list-inline mb-4" id="portfolio-flters">
-                                            <li class="btn btn-secondary active"  data-filter="*"><i class="fa fa-star me-2"></i>All</li>
-                                            <li class="btn btn-secondary" data-filter=".first"><i class="fa fa-laptop-code me-2"></i>Design</li>
-                                            <li class="btn btn-secondary" data-filter=".second"><i class="fa fa-mobile-alt me-2"></i>Development</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="row portfolio-container">
-                                    <div class="col-md-6 mb-4 portfolio-item first">
-                                        <div class="position-relative overflow-hidden mb-2">
-                                            <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
-                                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                                                <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                                                    <i class="bi bi-plus text-light"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-4 portfolio-item second">
-                                        <div class="position-relative overflow-hidden mb-2">
-                                            <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
-                                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                                                <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                                                    <i class="bi bi-plus text-light"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-4 portfolio-item first">
-                                        <div class="position-relative overflow-hidden mb-2">
-                                            <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
-                                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                                                <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                                                    <i class="bi bi-plus text-light"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-4 portfolio-item second">
-                                        <div class="position-relative overflow-hidden mb-2">
-                                            <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
-                                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                                                <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                                                    <i class="bi bi-plus text-light"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <!-- Portfolio End -->
-
-                    
-
-                    <!-- Contact Start -->
-                    <section class="py-5 wow fadeInUp" data-wow-delay="0.1s" id="contact">
-                        <h1 class="title pb-3 mb-5">Contact Me</h1>
-						<p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a></p>
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control border-0 bg-secondary" id="name" placeholder="Your Name">
-                                        <label for="name">Your Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control border-0 bg-secondary" id="email" placeholder="Your Email">
-                                        <label for="email">Your Email</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control border-0 bg-secondary" id="subject" placeholder="Subject">
-                                        <label for="subject">Subject</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control border-0 bg-secondary" placeholder="Leave a message here" id="message" style="height: 200px"></textarea>
-                                        <label for="message">Message</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
-                    </section>
-                    <!-- Contact End -->
-
-                    <!-- Footer Start -->
-                    <section class="wow fadeIn" data-wow-delay="0.1s">
-                        <div class="bg-secondary text-light text-center p-5">
-                            <div class="d-flex justify-content-center mb-4">
-                                <a class="btn btn-dark btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-dark btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-dark btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-dark btn-square mx-1" href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                            <div class="d-flex justify-content-center mb-3">
-                                <a class="text-light px-3 border-end" href="#">Privacy</a>
-                                <a class="text-light px-3 border-end" href="#">Terms</a>
-                                <a class="text-light px-3 border-end" href="#">FAQs</a>
-                                <a class="text-light px-3" href="#">Help</a>
-                            </div>
-							
-                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							<p class="m-0">&copy; All Rights Reserved. Designed by <a href="https://htmlcodex.com">HTML Codex</a></p>
-                        </div>
-                    </section>
-                    <!-- Footer End -->
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img\Profile_Picture.png" alt="">
                 </div>
             </div>
         </div>
+    </div>
+    <!-- Header End -->
 
-        
-        <!-- Back to Top -->
-        <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
-        
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/typed/typed.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/isotope/isotope.pkgd.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
 
-        <!-- Contact Javascript File -->
-        <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
+    <!-- Video Modal Start -->
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-    </body>
+
+    <!-- About Start -->
+    <div class="container-xxl py-6" id="about">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    
+                    <div class="d-flex align-items-center mb-5">
+                        <div class="years flex-shrink-0 text-center me-4">
+                            <h1 class="display-1 mb-0">2 +</h1>
+                            <h5 class="mb-0">Years</h5>
+                        </div>
+                        <h3 class="lh-base mb-0">of working experience as a Fullstack Software Engineer</h3>
+                    </div>
+                    <p style="text-align: justify;" class="mb-4">👋 Hello! I'm Tharuka Gayashan Fernando, a Software Engineer specializing in Spring Boot and Java, with hands-on experience since July 2022. I excel in creating robust, scalable solutions that align with both technical and business goals. Passionate about staying updated with industry trends, I thrive in collaborative environments, solving complex problems with precision and innovation. Let's connect and explore how we can work together to create something remarkable!</p>
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+                    <div class="mb-4 mt-5">
+                        <div class="py-1">
+                            <i class="fas fa-circle text-primary me-2" style="font-size: 0.5em;"></i><span class="fw-medium text-primary">Name:</span> Tharuka Gayashan Fernando
+                        </div>
+                        <div class="py-1">
+                            <i class="fas fa-circle text-primary me-2" style="font-size: 0.5em;"></i><span class="fw-medium text-primary">Degree:</span> BSc (Hons) Information Technology Special (SE)
+                        </div>
+                        <div class="py-1">
+                            <i class="fas fa-circle text-primary me-2" style="font-size: 0.5em;"></i><span class="fw-medium text-primary">Experience:</span> 2+ Years
+                        </div>
+                        <div class="py-1">
+                            <i class="fas fa-circle text-primary me-2" style="font-size: 0.5em;"></i><span class="fw-medium text-primary">Phone:</span> +94 714550733
+                        </div>
+                        <div class="py-1">
+                            <i class="fas fa-circle text-primary me-2" style="font-size: 0.5em;"></i><span class="fw-medium text-primary">Email:</span> ft.gayashan@gmail.com
+                        </div>
+                        <div class="py-1">
+                            <i class="fas fa-circle text-primary me-2" style="font-size: 0.5em;"></i><span class="fw-medium text-primary">Address:</span> Colombo, Sri Lanka
+                        </div>
+                        <div class="py-1">
+                            <i class="fas fa-circle text-primary me-2" style="font-size: 0.5em;"></i><span class="fw-medium text-primary">Freelance:</span> Available
+                        </div>
+                    </div>
+                    
+                    
+                    <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="img/about-1.jpg" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="img/about-2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <h5 class="border-end pe-3 me-3 mb-0">Happy Clients</h5>
+                        <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">30</h2>
+                    </div>
+                    <p class="mb-4">I’ve had the pleasure of working with 30 happy clients, delivering solutions that meet their needs.</p>
+                    <div class="d-flex align-items-center mb-3">
+                        <h5 class="border-end pe-3 me-3 mb-0">Projects Completed</h5>
+                        <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">50</h2>
+                    </div>
+                    <p class="mb-0">I’ve successfully completed 50 projects, showcasing my commitment to quality and innovation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Expertise Start -->
+    <div class="container-xxl py-6 pb-5" id="skill">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-5 mb-5">Experience & Education</h1>
+                    <p class="mb-4">With over 2 years of experience in software engineering, I have honed my skills in Java, Spring Boot, React.js, and full-stack development. My expertise spans across backend architecture, microservices, and frontend development, enabling me to deliver robust, scalable solutions for various industries.</p>
+                    <h3 class="mb-4">My Skills</h3>
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">JAVA</h6>
+                                    <h6 class="font-weight-bold">95%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">NODE JS</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">PYTHON</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">MACHINE LEARNING</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">PHP</h6>
+                                    <h6 class="font-weight-bold">90%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Javascript</h6>
+                                    <h6 class="font-weight-bold">90%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">REACT JS</h6>
+                                    <h6 class="font-weight-bold">95%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">HTML</h6>
+                                    <h6 class="font-weight-bold">95%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">CSS</h6>
+                                    <h6 class="font-weight-bold">95%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-sucess" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">REACT NATIVE</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">Experience</button>
+                        </li>
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">Education</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5> Full Stack Software Engineer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">January 2024 – present</p>
+                                    <h6 class="mb-0">OLAK TECHNOLOGIES (PVT) LIMITED</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Associate Software Engineer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">July 2023 –January2024</p>
+                                    <h6 class="mb-0">OLAK TECHNOLOGIES (PVT) LIMITED</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Trainee Full Stack Software Engineer </h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">July 2022 – January 2023</p>
+                                    <h6 class="mb-0">OLAK TECHNOLOGIES (PVT) LIMITED</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Freelancer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2019 - Present</p>
+                                    <h6 class="mb-0">AVAILABLE</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="gy-5 gx-4">
+                                <div class="mb-4">
+                                    <h5>BSc. (HONS) INFORMATION TECHNOLOGY SPECIALISING IN SOFTWARE ENGINEERING</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">January 2020 – March 2024</p>
+                                    <h6 class="mb-0">Sri Lanka Institute of Information Technology (SLIIT) </h6>
+                                </div>
+                            
+                                <div class="mb-4">
+                                    <h5>DIPLOMA IN INFORMATION TECHNOLOGY</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">January 2018 - January 2019</p>
+                                    <h6 class="mb-0">Open University</h6>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Academic Projects Start -->
+
+
+<!-- Start of Row -->
+<div class="container">
+    <div class="row">
+        <!-- Industrial Projects Column -->
+        <div class="col-lg-6 col-md-12">
+            <section class="py-5 wow fadeInUp" data-wow-delay="0.1s" id="project">
+                <h1 class="display-5 mb-5">Industrial Projects</h1>
+                <div class="border-start border-4 border-primary ps-5">
+                    <!-- Project 1 -->
+                    <div class="position-relative mb-5">
+                        <span class="bi bi-chevron-right fs-4 text-primary position-absolute" style="top: -5px; left: -50px;"></span>
+                        <h6 class="mb-1 text-dark">MICROSERVICE ARCHITECTURE PROJECT FOR MICRO FINANCE COMPANY</h6>
+                        <ul style="list-style-type: disc; padding-left: 20px; color: var(--bs-primary);">
+                            <li style="text-align: justify;">Led the architecture design for a microservices system with 10 services, including HRMS, Loans, and User Management, for a leading Sri Lankan Micro Finance company.</li>
+                            <li style="text-align: justify;">Employed Spring Boot, Kafka, Redis, Zipkin, Grafana, Prometheus, and Keycloak for development and system management.</li>
+                            <li style="text-align: justify;">Designed and implemented scalable, secure, and high-performance backend services, integrating Swagger for API documentation and using Spring Boot Actuator and Eureka for health checks and service connectivity.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="position-relative mb-5">
+                        <span class="bi bi-chevron-right fs-4 text-primary position-absolute" style="top: -5px; left: -50px;"></span>
+                        <h6 class="mb-1 text-dark">QUICK INSURANCE SYSTEM DEVELOPMENT FOR SRI LANKAN LEADING INSURANCE COMPANY</h6>
+                        <ul style="list-style-type: disc; padding-left: 20px; color: var(--bs-primary);">
+                            <li style="text-align: justify;">Developed the backend for Quick Insurance for a leading Sri Lankan insurance company.</li>
+                            <li style="text-align: justify;">Led project setup, including environment configuration and version control.</li>
+                            <li style="text-align: justify;">Implemented backend services using Spring Boot with Java and PostgreSQL, ensuring system efficiency and reliability.</li>
+                        </ul>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="position-relative mb-5">
+                        <span class="bi bi-chevron-right fs-4 text-primary position-absolute" style="top: -5px; left: -50px;"></span>
+                        <h6 class="mb-1 text-dark">WORKFLOW MANAGEMENT SYSTEM FOR PRODUCT DEVELOPMENT AND PROJECT MANAGEMENT</h6>
+                        <ul style="list-style-type: disc; padding-left: 20px; color: var(--bs-primary);">
+                            <li style="text-align: justify;">Developed a Workflow Management System for a leading Sri Lankan company to manage product development timelines and project tasks.</li>
+                            <li style="text-align: justify;">Led project setup, including environment configuration and version control.</li>
+                            <li style="text-align: justify;">Implemented backend services using Spring Boot with Java and PostgreSQL, enhancing workflow management and operational efficiency.</li>
+                        </ul>
+                    </div>
+                    <!-- Project 4 -->
+                    <div class="position-relative mb-5">
+                        <span class="bi bi-chevron-right fs-4 text-primary position-absolute" style="top: -5px; left: -50px;"></span>
+                        <h6 class="mb-1 text-dark">TEACHER MANAGEMENT AND COMPANY PROPERTY SYSTEM</h6>
+                        <ul style="list-style-type: disc; padding-left: 20px; color: var(--bs-primary);">
+                            <li style="text-align: justify;">Developed a system to manage teacher details, loans, and company property, including Fixed Assets, Inventory, User Registration, and General Ledger modules.</li>
+                            <li style="text-align: justify;">Utilized Spring Boot with Java for backend services and PostgreSQL for data management.</li>
+                            <li style="text-align: justify;">Contributed to the design, implementation, and testing of modules for efficient data management and system integration.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="position-relative mb-5">
+                        <span class="bi bi-chevron-right fs-4 text-primary position-absolute" style="top: -5px; left: -50px;"></span>
+                        <h6 class="mb-1 text-dark">EMPLOYEE FUND AND COMPANY MANAGEMENT SYSTEM FOR A LEADING SRI LANKAN COMPANY</h6>
+                        <ul style="list-style-type: disc; padding-left: 20px; color: var(--bs-primary);">
+                            <li style="text-align: justify;">Developed the backend for an Employee Fund and Company Management System for a leading Sri Lankan company.</li>
+                            <li style="text-align: justify;">Led project setup, including environment configuration and version control implementation.</li>
+                            <li style="text-align: justify;">Used Spring Boot with Java for backend services, PostgreSQL for data management, and deployed the  system on Oracle Cloud, ensuring reliability and scalability.</li>
+                        </ul>
+                    </div>
+                    <!-- Project 6 -->
+                    <div class="position-relative mb-5">
+                        <span class="bi bi-chevron-right fs-4 text-primary position-absolute" style="top: -5px; left: -50px;"></span>
+                        <h6 class="mb-1 text-dark">BACKEND DEVELOPMENT FOR LEADING SRI LANKAN INSURANCE COMPANY</h6>
+                        <ul style="list-style-type: disc; padding-left: 20px; color: var(--bs-primary);">
+                            <li style="text-align: justify;">Contributed to the backend development of an enterprise-level insurance system for a leading Sri Lankan insurance company.</li>
+                            <li style="text-align: justify;">Worked on critical services including General Ledger, Petty cash, Receipt, Claims, Fixed Assets, and Inventory using Spring Boot with Java in a microservices architecture..</li>
+                            <li style="text-align: justify;">Managed data persistence with Oracle databases and optimized services to align with business requirements.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+        <!-- Academic Projects Column -->
+        <div class="col-lg-6 col-md-12">
+            <section class="py-5 wow fadeInUp" data-wow-delay="0.1s" id="project">
+                <h1 class="display-5 mb-5">Academic Projects</h1>
+                <div class="border-start border-4 border-primary ps-5">
+                    <!-- Project 1 -->
+                    <div class="position-relative mb-5">
+                        <span class="bi bi-chevron-right fs-4 text-primary position-absolute" style="top: -5px; left: -50px;"></span>
+                        <h6 class="mb-1">TRAVEL AGENCY AND TOUR PLANNING SYSTEM </h6>
+                        <h6>MOVIE BOOKING SYSTEM</h6> 
+                        <h6>PROJECT MANAGEMENT TOOL</h6> 
+                        <h6>MOVIE TICKET BOOKING MANAGEMENT TOOL</h6>
+                        <p class="mb-0">Technology | 
+                            <span class="badge bg-primary text-white">Visual Studio</span>
+                            <span class="badge bg-primary text-white">MERN Stack</span>
+                            <span class="badge bg-primary text-white">Bootstrap</span>
+                        </p>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="position-relative mb-5">
+                        <span class="bi bi-chevron-right fs-4 text-primary position-absolute" style="top: -5px; left: -50px;"></span>
+                        <h6 class="mb-1">FUEL MANAGEMENT TOOL </h6>
+                        <p class="mb-0">Technology | 
+                            <span class="badge bg-primary text-white">Visual Studio</span>
+                            <span class="badge bg-primary text-white">MERN Stack</span>
+                            <span class="badge bg-primary text-white">Bootstrap</span>
+                            <span class="badge bg-primary text-white">Material UI</span>
+                        </p>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="position-relative mb-5">
+                        <span class="bi bi-chevron-right fs-4 text-primary position-absolute" style="top: -5px; left: -50px;"></span>
+                        <h6 class="mb-1">EVENT MANAGEMENT TOOL</h6>
+                        <p class="mb-0">Technology |
+                            <span class="badge bg-primary text-white">Visual Studio</span>
+                            <span class="badge bg-primary text-white">Fire Base</span>
+                            <span class="badge bg-primary text-white">Node.js</span>
+                            <span class="badge bg-primary text-white">Flutter</span>
+                        </p>
+                    </div>
+                    <!-- Project 4 -->
+                    <div class="position-relative mb-5">
+                        <span class="bi bi-chevron-right fs-4 text-primary position-absolute" style="top: -5px; left: -50px;"></span>
+                        <h6 class="mb-1">TRAIN TICKET MANAGEMENT SYSTEM</h6>
+                        <p class="mb-0">Technology | 
+                            <span class="badge bg-primary text-white">Visual Studio</span>
+                            <span class="badge bg-primary text-white">Android Studio</span>
+                            <span class="badge bg-primary text-white">React.js</span>
+                            <span class="badge bg-primary text-white">Python</span>
+                        </p>
+                    </div>
+                    <!-- Project 5 -->
+                    <div class="position-relative mb-5">
+                        <span class="bi bi-chevron-right fs-4 text-primary position-absolute" style="top: -5px; left: -50px;"></span>
+                        <h6 class="mb-1">ONLINE LEARNING TOOL</h6>
+                        <p class="mb-0">Technology | 
+                            <span class="badge bg-primary text-white">Visual Studio</span>
+                            <span class="badge bg-primary text-white">React.js</span>
+                            <span class="badge bg-primary text-white">Bootstrap</span>
+                            <span class="badge bg-primary text-white">Django</span>
+                        </p>
+                    </div>
+                    <!-- Project 6 -->
+                    <div class="position-relative mb-5">
+                        <span class="bi bi-chevron-right fs-4 text-primary position-absolute" style="top: -5px; left: -50px;"></span>
+                        <h6 class="mb-1">HEALTHCARE SYSTEM MANAGEMENT TOOL</h6>
+                        <p class="mb-0">Technology | 
+                            <span class="badge bg-primary text-white">Visual Studio</span>
+                            <span class="badge bg-primary text-white">Android Studio</span>
+                            <span class="badge bg-primary text-white">Flutter</span>
+                            <span class="badge bg-primary text-white">Firebase</span>
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+            <section class="py-5 wow fadeInUp" data-wow-delay="0.1s" id="project">
+                <h1 class="display-5 mb-5">Personal Projects</h1>
+                <div class="border-start border-4 border-primary ps-5">
+                    <!-- Project 1 -->
+                    <div class="position-relative mb-5">
+                        <span class="bi bi-chevron-right fs-4 text-primary position-absolute" style="top: -5px; left: -50px;"></span>
+                        <h6 class="mb-1 text-dark">HRMS PROJECT</h6>
+                        <ul style="list-style-type: disc; padding-left: 20px; color: var(--bs-primary);">
+                            <li style="text-align: justify;">Developed a Human Resource Management System (HRMS) for commercial sale, including features like Customer Registration, User Management, and Payroll Management.</li>
+                            <li style="text-align: justify;">Utilized Spring Boot with MySQL for backend and React.js for frontend development, delivering a user-friendly platform for efficient HR management.</li>
+                        </ul>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="position-relative mb-5">
+                        <span class="bi bi-chevron-right fs-4 text-primary position-absolute" style="top: -5px; left: -50px;"></span>
+                        <h6 class="mb-1 text-dark">PARCEL DELIVERY MANAGEMENT SYSTEM</h6>
+                        <ul style="list-style-type: disc; padding-left: 20px; color: var(--bs-primary);">
+                            <li style="text-align: justify;">Developed a Parcel Delivery Management System for handling package cost calculation, delivery processing, and user management.</li>
+                            <li style="text-align: justify;">Implemented backend using Spring Boot with Java and PostgreSQL, optimizing logistics and enhancing user experience with a reliable, scalable solution.</li>
+                        </ul>
+                    </div>
+                    
+
+                </div>
+            </section>
+           
+        </div>
+    </div>
+</div>
+
+
+    
+   
+
+    <!-- Service Start -->
+    <div class="container-fluid bg-light my-5 py-6" id="service">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">My Services</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="#">Hire Me</a>
+                </div>
+            </div>
+            <div class="row g-4">
+                <!-- REST API Development -->
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded shadow-sm h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-crop-alt fa-2x text-primary"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">REST API Development</h4>
+                            <p style="text-align: justify;">I offer expert REST API development services to create scalable, secure, and high-performance APIs tailored to your needs. My solutions ensure seamless integration and efficient communication between systems, enhancing your application's functionality and user experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- IT Consultancy -->
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded shadow-sm h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-code-branch fa-2x text-primary"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">IT Consultancy</h4>
+                            <p style="text-align: justify;">I provide strategic IT consultancy to help businesses optimize their technology infrastructure and align it with their goals. My services include expert advice on system integration, technology adoption, and IT strategy to drive innovation and improve operational efficiency.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fullstack Development -->
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded shadow-sm h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-code fa-2x text-primary"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Fullstack Development</h4>
+                            <p style="text-align: justify;">I deliver comprehensive full-stack development solutions, handling both frontend and backend needs to build robust, scalable web applications. From intuitive user interfaces to efficient server-side functionality, my services ensure a seamless and integrated digital experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Web & Mobile Development -->
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded shadow-sm h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-laptop-code fa-2x text-primary"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Web & Mobile Application Development</h4>
+                            <p style="text-align: justify;">I specialize in creating dynamic web and mobile applications tailored to your business needs. Whether it's a responsive website or a high-performance mobile app, my services ensure a seamless user experience across all devices and platforms.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-6 pt-5" id="potfolio">
+        <div class="container">
+            <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">My Potfolio</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
+                        <li class="mx-3 active" data-filter="*">All Projects</li>
+                        <li class="mx-3" data-filter=".first">Frontend Development</li>
+                        <li class="mx-3" data-filter=".second">Backend Development</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-1.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-2.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-3.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-4.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-5.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-6.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+
+    <!-- Publications Start -->
+<div class="container-xxl py-6 pb-5" id="publications">
+    <div class="container">
+        <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="col-lg-6">
+                <h1 class="display-5 mb-0">Publications</h1>
+            </div>
+        </div>
+        <div class="row g-4">
+            <!-- First Column -->
+            <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <h5 class="mb-3">Final Year Research Project (Group)</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <i class="bi bi-arrow-right-circle-fill text-primary me-2"></i>
+                        <strong>MACHINE LEARNING BASED SMART HELA WEDAKAMA APPLICATION TO GUIDE PATIENTS AND APPRENTICE NATIVE PHYSICIANS MOBILE APPLICATION</strong>
+                    </li>
+                    <li class="mb-2">
+                        <i class="bi bi-journal-text text-primary me-2"></i>
+                        Research Publication: 
+                        <a href="https://ieeexplore.ieee.org/document/10465385" target="_blank">View Publication</a>
+                    </li>
+                    <li>
+                        <i class="bi bi-globe text-primary me-2"></i>
+                        Research Website: 
+                        <a href="https://ayusha-helawedakama.netlify.app/index.html" target="_blank">View Website</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Second Column -->
+            <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                <h5 class="mb-3">Additional Research</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <i class="bi bi-arrow-right-circle-fill text-primary me-2"></i>
+                        <strong>MONITORING ONLINE OPERATING FUEL MANAGEMENT SYSTEM</strong>
+                    </li>
+                    <li>
+                        <i class="bi bi-journal-text text-primary me-2"></i>
+                        Research Publication: 
+                        <a href="https://ijemr.vandanapublications.com/index.php/j/article/view/908" target="_blank">View Publication</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Publications End -->
+
+    <!-- Tools Start -->
+
+    <!-- Tools and Technologies Start -->
+<div class="container-fluid bg-light py-5 my-5" id="tech">
+    <div class="container">
+        <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Skills</h1>
+
+        <div class="row justify-content-center">
+            <!-- Technical Skills Section -->
+            <div class="col-12">
+                <h6 class="mb-3">TECHNICAL SKILLS</h6>
+                <p class="mb-4">
+                    <span class="badge bg-primary text-white">JAVA</span>
+                    <span class="badge bg-primary text-white">REACT JS</span>
+                    <span class="badge bg-primary text-white">API</span>
+                    <span class="badge bg-primary text-white">SPRING-BOOT</span>
+                    <span class="badge bg-primary text-white">HTML5</span>
+                    <span class="badge bg-primary text-white">CSS</span>
+                    <span class="badge bg-primary text-white">JAVASCRIPT</span>
+                    <span class="badge bg-primary text-white">EXPRESS JS</span>
+                    <span class="badge bg-primary text-white">KOA JS</span>
+                    <span class="badge bg-primary text-white">NODE JS</span>
+                    <span class="badge bg-primary text-white">BOOTSTRAP</span>
+                    <span class="badge bg-primary text-white">MATERIAL UI</span>
+                    <span class="badge bg-primary text-white">DART</span>
+                    <span class="badge bg-primary text-white">C , C++</span>
+                    <span class="badge bg-primary text-white">PYTHON</span>
+                    <span class="badge bg-primary text-white">ARDUINO</span>
+                    <span class="badge bg-primary text-white">FLUTTER</span>
+                    <span class="badge bg-primary text-white">ANDROID</span>
+                    <span class="badge bg-primary text-white">MACHINE LEARNING</span>
+                    <span class="badge bg-primary text-white">KAFKA</span>
+                    <span class="badge bg-primary text-white">REDIS</span>
+                    <span class="badge bg-primary text-white">ZIPKIN AND SLEUTH</span>
+                    <span class="badge bg-primary text-white">ZOOKEEPER</span>
+                    <span class="badge bg-primary text-white">SWAGGER</span>
+                    <span class="badge bg-primary text-white">EUREKA</span>
+                    <span class="badge bg-primary text-white">ACTUATOR</span>
+                    <span class="badge bg-primary text-white">RESILIENCE4J</span>
+                    <span class="badge bg-primary text-white">API GATEWAY</span>
+                    <span class="badge bg-primary text-white">WEBFLUX</span>
+                </p>
+            </div>
+
+            <!-- Tools and Databases Section -->
+            <div class="col-12 mt-4">
+                <h6 class="mb-3">TOOLS AND DATABASES</h6>
+                <p class="mb-4">
+                    <span class="badge bg-danger text-white">POSTMAN</span>
+                    <span class="badge bg-danger text-white">ECLIPSE</span>
+                    <span class="badge bg-danger text-white">INTELLIJ IDEA</span>
+                    <span class="badge bg-danger text-white">VSCODE</span>
+                    <span class="badge bg-danger text-white">GITHUB</span>
+                    <span class="badge bg-danger text-white">GITLAB</span>
+                    <span class="badge bg-danger text-white">CI/CD</span>
+                    <span class="badge bg-danger text-white">ANDROID STUDIO</span>
+                    <span class="badge bg-danger text-white">DOCKER</span>
+                    <span class="badge bg-danger text-white">CLICKUP</span>
+                    <span class="badge bg-danger text-white">AWS</span>
+                    <span class="badge bg-danger text-white">KUBERNETES</span>
+                    <span class="badge bg-danger text-white">GOOGLE CLOUD</span>
+                    <span class="badge bg-danger text-white">GRAFANA</span>
+                    <span class="badge bg-danger text-white">MONGO DB</span>
+                    <span class="badge bg-danger text-white">MySQL</span>
+                    <span class="badge bg-danger text-white">POSTGRESQL</span>
+                    <span class="badge bg-danger text-white">FIREBASE</span>
+                    <span class="badge bg-danger text-white">PROMETHEUS</span>
+                    <span class="badge bg-danger text-white">KEYCLOAK</span>
+                    <span class="badge bg-danger text-white">ORACLE DB</span>
+                </p>
+            </div>
+
+            <!-- Soft Skills Section -->
+            <div class="col-12 mt-4">
+                <h6 class="mb-3">SOFT SKILLS</h6>
+                <p class="mb-0">
+                    <span class="badge bg-success text-white">PROJECT MANAGEMENT</span>
+                    <span class="badge bg-success text-white">TEAM WORK</span>
+                    <span class="badge bg-success text-white">TIME MANAGEMENT</span>
+                    <span class="badge bg-success text-white">COMMUNICATION</span>
+                    <span class="badge bg-success text-white">LEADERSHIP</span>
+                    <span class="badge bg-success text-white">TEAM COLLABORATION</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Tools and Technologies End -->
+
+   
+
+
+    <!-- Contact Start -->
+    <div class="container-xxl pb-5" id="contact">
+        <div class="container py-5">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Let's Work Together</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Say Hello</a>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="mb-2">My Address:</p>
+                    <h3 class="fw-bold">Colombo , Sri Lanka</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Call me:</p>
+                    <h3 class="fw-bold">+94 714550733</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Mail me:</p>
+                    <h3 class="fw-bold">ft.gayashan@gmail.com</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Follow me:</p>
+                    <div class="d-flex justify-content-center mt-auto mb-3">
+                        <a class="btn btn-primary btn-square mx-1" href="https://github.com/tharukagayashan" target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-primary btn-square mx-1" href="https://tharukagayashan.medium.com/" target="_blank"><i class="fab fa-medium"></i></a>
+                        <a class="btn btn-primary btn-square mx-1" href="https://www.linkedin.com/in/tharuka-gayashan/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-primary btn-square mx-1" href="https://www.hackerrank.com/profile/tharuka_gayashan" target="_blank"><i class="fab fa-hackerrank"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <p class="mb-4">Feel free to reach out to me for any inquiries or opportunities. You can contact me via email or connect with me on LinkedIn.</p>
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Map Start -->
+    <div class="container-xxl pt-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-xxl pt-5 px-0">
+            <div class="bg-dark">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125925.86642097146!2d79.95267883835155!3d6.927079418126878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25934024f674d%3A0x6d4b12d8d6c2d6f!2sColombo%2C%20Sri%20Lanka!5e0!3m2!1sen!2sbd!4v1626904539602!5m2!1sen!2sbd"
+                frameborder="0" style="width: 100%; height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            
+            </div>
+        </div>
+    </div>
+    <!-- Map End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom text-secondary" href="#">Tharuka Gayashan Potfolio</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom text-secondary" href="https://htmlcodex.com">Tharuka Gayashan</a>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
 </html>
