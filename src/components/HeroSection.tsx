@@ -35,7 +35,7 @@ export function HeroSection() {
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 mb-10 animate-fade-up stagger-3">
               <Button variant="hero" size="xl" asChild>
-                <a href="https://drive.google.com/file/d/1KE4bxUf2fszzVXvufubkiXSq5kbHpzTY/view" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/1fFa-QjqXG-vJKD2j8ggwxhG7DzGU43FH/view" target="_blank" rel="noopener noreferrer">
                   <FileText className="mr-2" size={20} />
                   Download CV
                 </a>
