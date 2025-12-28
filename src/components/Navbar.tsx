@@ -53,7 +53,7 @@ export function Navbar() {
 
           <div className="hidden lg:block">
             <Button variant="hero" size="lg" asChild>
-              <a href="https://drive.google.com/file/d/1KE4bxUf2fszzVXvufubkiXSq5kbHpzTY/view" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1fFa-QjqXG-vJKD2j8ggwxhG7DzGU43FH/view" target="_blank" rel="noopener noreferrer">
                 Download CV
               </a>
             </Button>
@@ -84,7 +84,7 @@ export function Navbar() {
               ))}
               <div className="pt-2 px-4">
                 <Button variant="hero" className="w-full" asChild>
-                  <a href="https://drive.google.com/file/d/1KE4bxUf2fszzVXvufubkiXSq5kbHpzTY/view" target="_blank" rel="noopener noreferrer">
+                  <a href="https://drive.google.com/file/d/1fFa-QjqXG-vJKD2j8ggwxhG7DzGU43FH/view" target="_blank" rel="noopener noreferrer">
                     Download CV
                   </a>
                 </Button>
