@@ -26,7 +26,7 @@ const publications = [
 
 export function PublicationsSection() {
   return (
-    <section className="py-20 lg:py-32 bg-secondary/20">
+    <section id="publications" className="py-20 lg:py-32 bg-secondary/20">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-16">
           <p className="text-primary font-medium mb-4 tracking-wide animate-fade-up">Research Work</p>
