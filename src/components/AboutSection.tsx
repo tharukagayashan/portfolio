@@ -1,10 +1,10 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { MapPin, Mail, Phone, GraduationCap, Briefcase, Users, CheckCircle } from "lucide-react";
+import { MapPin, Mail, Phone, GraduationCap, Briefcase, Users, CheckCircle, Youtube } from "lucide-react";
 
 const stats = [
   { icon: Briefcase, value: "3+", label: "Years Experience" },
-  { icon: Users, value: "30+", label: "Happy Clients" },
-  { icon: CheckCircle, value: "50+", label: "Projects Completed" },
+  { icon: Users, value: "8+", label: "Happy Clients" },
+  { icon: CheckCircle, value: "25+", label: "Projects Completed" },
 ];
 
 const personalInfo = [
@@ -12,6 +12,7 @@ const personalInfo = [
   { icon: MapPin, label: "Location", value: "Colombo, Sri Lanka" },
   { icon: Mail, label: "Email", value: "ft.gayashan@gmail.com" },
   { icon: Phone, label: "Phone", value: "+94 714550733" },
+  { icon: Youtube, label: "YouTube", value: "@encode_lab" },
 ];
 
 export function AboutSection() {
