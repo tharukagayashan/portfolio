@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tharuka Gayashan Fernando | Senior Software Engineer</title>
+  <link rel="icon" type="image/x-icon" href="/portfolio/assets/favicon-BPFkcCFZ.png">
   <meta name="description"
     content="Senior Software Engineer with 3+ years of experience in Java, Spring Boot, React.js, and microservices architecture. Available for freelance projects." />
   <meta name="author" content="Tharuka Gayashan Fernando" />
@@ -15,19 +16,39 @@
   <meta property="og:description"
     content="Senior Software Engineer specializing in Java, Spring Boot, and Full Stack Development with 3+ years of experience." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  <meta property="og:image" content="https://tharukagayashan.github.io/portfolio/" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@tharukagayashan" />
-  <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  <meta name="twitter:image" content="" />
 
   <script defer src="https://cloud.umami.is/script.js" data-website-id="317b061e-3ab9-4bf9-bd20-fd3c9dbb89dd"></script>
-  <script type="module" crossorigin src="/portfolio/assets/index-Bp6wQgIZ.js"></script>
+  <script type="module" crossorigin src="/portfolio/assets/index-DBkFNv-A.js"></script>
   <link rel="stylesheet" crossorigin href="/portfolio/assets/index-wLSIlPu3.css">
 </head>
 
 <body>
   <div id="root"></div>
+
+  <!-- ADD THIS SCRIPT AT THE END, AFTER React script -->
+  <script>
+    // Wait for React to fully load and initialize
+    window.addEventListener('load', function () {
+      // Small delay to ensure React is ready
+      setTimeout(function () {
+        const titleText = "👨 Tharuka Gayashan Fernando | Senior Software Engineer | 🚀 Java | Spring Boot | Microservices | Cloud | ⚡ Full Stack Developer | React | TypeScript | Node.js 🌟 3+ Years Experience | Available for Opportunities";
+        let position = 0;
+
+        function animateTitle() {
+          document.title = titleText.substring(position) + titleText.substring(0, position);
+          position = (position + 1) % titleText.length;
+        }
+
+        // Start animation
+        setInterval(animateTitle, 300);
+      }, 1000); // 1 second delay to ensure React app is mounted
+    });
+  </script>
 </body>
 
 </html>
