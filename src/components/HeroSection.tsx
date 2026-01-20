@@ -1,14 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, FileText } from "lucide-react";
 import profileImage from "@/assets/profile.png";
+import TechRain from "./TechRain";
 
 export function HeroSection() {
   return (
     <section id="home" className="min-h-screen flex items-center pt-20 relative overflow-hidden">
+      <div className="absolute inset-0">
+        <TechRain opacity={0.24} density={30} speed={1.0} />
+      </div>
       {/* Background gradient orbs */}
       <div className="absolute top-1/4 -left-32 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-float" />
       <div className="absolute bottom-1/4 -right-32 w-80 h-80 bg-primary/10 rounded-full blur-3xl animate-float" style={{ animationDelay: "2s" }} />
-      
+
       <div className="container mx-auto px-4 sm:px-6">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Content */}
@@ -16,18 +20,18 @@ export function HeroSection() {
             <div className="animate-fade-up">
               <p className="text-primary font-medium mb-4 tracking-wide">Hello, I'm</p>
             </div>
-            
+
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-display font-bold mb-6 animate-fade-up stagger-1">
               Tharuka Gayashan
               <span className="block gradient-text">Fernando</span>
             </h1>
-            
+
             <div className="animate-fade-up stagger-2">
               <p className="text-xl sm:text-2xl text-muted-foreground mb-2 font-display">
                 Senior Software Engineer
               </p>
               <p className="text-muted-foreground max-w-lg mb-8">
-                Java & Full Stack Developer with 3+ years of experience building scalable, 
+                Java & Full Stack Developer with 3+ years of experience building scalable,
                 high-performance enterprise solutions.
               </p>
             </div>
@@ -80,7 +84,7 @@ export function HeroSection() {
             <div className="relative">
               {/* Glow behind image */}
               <div className="absolute inset-0 bg-primary/30 rounded-full blur-3xl scale-75" />
-              
+
               {/* Image container */}
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-primary/30 glow-effect">
                 <img
@@ -89,7 +93,7 @@ export function HeroSection() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              
+
               {/* Decorative ring */}
               <div className="absolute -inset-4 border-2 border-dashed border-primary/20 rounded-full animate-spin" style={{ animationDuration: "30s" }} />
             </div>
