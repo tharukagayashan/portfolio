@@ -155,7 +155,7 @@ export default function TechRain({
             canvas.style.height = `${h}px`;
             ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
 
-            const count = Math.max(12, Math.floor((w / 720) * density));
+            const count = Math.max(12, Math.floor((w / 600) * density));
             if (images.length > 0) drops = new Array(count).fill(0).map(() => makeDrop(true));
         };
 
